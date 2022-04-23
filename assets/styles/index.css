@@ -1,0 +1,126 @@
+body {
+    background-color: #fff;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    overflow: hidden;
+}
+
+
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    backdrop-filter: blur(5px);
+    backdrop-filter: brightness(70%);
+}
+
+
+
+.menu-row {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.logo {
+    position: relative;
+    top: 10px;
+    color: #fff;
+    height: 29px;
+    font-size: 25px;
+    font-weight: 800;
+    text-decoration: none;
+    padding: 3px;
+    cursor: pointer;
+}
+
+
+
+.nav-indicator {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.2s;
+    opacity: 0;
+}
+
+
+
+
+.triangle {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-top: 10px solid #fff;
+}
+
+
+.nav-item {
+    position: relative;
+    top: 20px;
+    transition: 0.3s;
+    padding: 3px;
+    margin-left: 14px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+html, body, content {
+    height: 100%;
+    margin: 0;
+}
+
+.full-height {
+    height: 100%;
+}
+
+#to-glowna {
+    background: #155bd5;
+}
+
+#to-budowa {
+    background: #0094ff;
+}
+
+#to-wady {
+    background: #00ffff;
+}
+
+#to-ochrona {
+    background: #00ff90;
+}
+
+#to-fakty {
+    background: #30ff00;
+}
+
+#to-ciekawostki {
+    background: #b6ff00;
+}
+
+
+
+
+
