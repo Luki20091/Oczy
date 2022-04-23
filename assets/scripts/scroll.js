@@ -38,7 +38,7 @@ $("a[id='ciekawostki']").click(function () {
 
 $("a[id='glowna']").click(function () {
     window.location.reload();
-});
+}); 
 
 
 
