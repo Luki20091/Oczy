@@ -36,6 +36,10 @@ $("a[id='ciekawostki']").click(function () {
     return false;
 });
 
+$("a[id='glowna']").click(function () {
+    window.location.reload();
+});
+
 
 
 
