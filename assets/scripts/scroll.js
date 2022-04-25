@@ -1,11 +1,3 @@
-
-
-
-
-
-
-
-
 $("a[id='budowa']").click(function () {
     $("html, body, content").animate({ scrollTop: $("#to-budowa").offset().top }, "slow");
     document.title = ('Oczy | Budowa');

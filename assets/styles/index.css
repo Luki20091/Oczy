@@ -16,37 +16,44 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: center;
+    justify-content: space-between;
     backdrop-filter: blur(5px);
     backdrop-filter: brightness(70%);
 }
 
 
 
-.menu-row {
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    position: relative;
-}
 
 .logo {
     position: relative;
-    top: 10px;
+    top: 3px;
     color: #fff;
     height: 29px;
     font-size: 25px;
     font-weight: 800;
     text-decoration: none;
-    padding: 3px;
+    padding: 10px;
     cursor: pointer;
+    margin-left: 20px;
+}
+
+nav {
+    margin-right: 20px;
 }
 
 
-
 .nav-indicator {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 2px;
+    background-color: #fff;
+    transition: 0.2s;
+    opacity: 0;
+}
+
+
+.nav-indicator2 {
     position: absolute;
     left: 50%;
     top: 0;
@@ -72,16 +79,17 @@ header {
 }
 
 
+
 .nav-item {
     position: relative;
-    top: 20px;
+    top: 18px;
     transition: 0.3s;
-    padding: 3px;
-    margin-left: 14px;
+    padding: 10px;
+    margin-left: 5px;
     color: #fff;
     text-decoration: none;
-    font-size: 15px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 700;
     cursor: pointer;
 }
 
@@ -94,31 +102,21 @@ html, body, content {
 
 .full-height {
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    background: #1570d5;
 }
 
-#to-glowna {
-    background: #155bd5;
+
+
+
+.content-row {
 }
 
-#to-budowa {
-    background: #0094ff;
-}
 
-#to-wady {
-    background: #00ffff;
-}
-
-#to-ochrona {
-    background: #00ff90;
-}
-
-#to-fakty {
-    background: #30ff00;
-}
-
-#to-ciekawostki {
-    background: #b6ff00;
-}
 
 
 
@@ -134,6 +132,7 @@ footer {
     display: flex;
     flex-direction: row;
     align-items: center;
+    flex-wrap: nowrap;
     justify-content: space-between;
 }
 
@@ -144,6 +143,6 @@ footer p {
     margin: 10px 10px;
     font-size: 12px;
     opacity: 0.3;
-    cursor: context-menu;
     font-weight: 500;
+    cursor: context-menu;
 }
