@@ -25,7 +25,8 @@ header {
 
 
 .logo {
-    position: relative;
+    position: absolute;
+    left: 0;
     top: 3px;
     color: #fff;
     height: 29px;
@@ -39,8 +40,25 @@ header {
 
 nav {
     margin-right: 20px;
+    position: absolute;
+    right: 0;
 }
 
+.header-cz3 {
+    display: none;
+}
+#menu-items {
+    display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+
+.menu-items-visible {
+    display: block !important;
+}
 
 .nav-indicator {
     position: absolute;

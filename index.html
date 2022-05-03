@@ -7,6 +7,7 @@
     <title>Oczy | Strona Główna</title>
 
     <link rel="stylesheet" type="text/css" href="assets/styles/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/styles/relative.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
 
@@ -28,12 +29,30 @@
             <a id="fakty" class="nav-item">Fakty</a>
             <a id="ciekawostki" class="nav-item">Ciekawostki</a>
         </nav>
+        <div id="header-cz3">
+            <input id="toggle" type="checkbox" onClick="openMenu();">
+            <div for="toggle" class="hamburger">
+                <div class="top-bun"></div>
+                <div class="meat"></div>
+                <div class="bottom-bun"></div>
+            </div>
+        </div>
     </header>
+    <div id="menu-items">
+        <div id="menu-items-in">
+            <a id="budowa">Budowa</a>
+            <a id="wady">Wady</a>
+            <a id="ochrona">Ochrona</a>
+            <a id="fakty">Fakty</a>
+            <a id="ciekawostki">Ciekawostki</a>
+        </div>
+    </div>
+
 
     <content>
         <div id="to-glowna" class="full-height">
             <div class="content-row">
-                <h1>Oko jako najważniejszy narząd zmysłu</h1>
+                <h1>Oko&nbsp;jako najważniejszy narząd&nbsp;zmysłu</h1>
                 <p>Oczy to bardzo ważny narząd naszego ciała. Dzięki nim możemy postrzegać świat i&nbsp;w&nbsp;nim&nbsp;funkcjonować. Poznaj fakty i mity na temat oczu oraz różne ciekawostki.</p>
             </div>
         </div>
@@ -41,7 +60,7 @@
 
         <div id="to-budowa" class="full-height">
             <div class="content-row">
-                <h1>Budowa oka ludzkiego:</h1>
+                <h1>Budowa&nbsp;oka ludzkiego:</h1>
                 <div class="row">
                     <img alt="budowa oka" src="assets/images/budowa-oka.png">
                     <div>
@@ -71,8 +90,6 @@
                 <p>Unikaj zadymionych, klimatyzowanych pomieszczeń i silnych strumieni powietrza. Nigdy&nbsp;nie&nbsp;kieruj&nbsp;nawiewu klimatyzacji samochodowej wprost na oczy.</p>
                 <p>Oczy będą wolniej wysychać, jeżeli wilgotność powietrza wyniesie co najmniej 60 procent. Aby&nbsp;lepiej&nbsp;nawilżyć powietrze w pomieszczeniach, możesz w nich rozstawić pojemniki z wodą lub położyć wilgotne ręczniki na grzejniki.</p>
                 <p>Jeżeli pracujesz przed komputerem, rób sobie przerwy w pracy, aby twoje oczy mogły odpocząć. Możesz np. przez jedną minutę mrugać intensywnie lub wyglądać przez okno.</p>
-                <p>Pij dużo płynów, najlepiej dwa litry dziennie (wody lub herbaty).</p>
-                <p>Zawsze pamiętaj o regularnym wietrzeniu pomieszczeń.</p>
                 <p>Zaopatrz się w okulary przeciwsłoneczne z filtrem UV.</p>
             </div>
         </div>
@@ -93,7 +110,7 @@
 
         <div id="to-ciekawostki" class="full-height">
             <div class="content-row">
-                <h1>Mało znane ciekawostki na temat oczu:</h1>
+                <h1>Mało znane ciekawostki na temat&nbsp;oczu:</h1>
                 <p><span class="bold">Ile srednio mamy rzęs?</span> Średnio człowiek ma około 150 rzęs na powiece dolnej jak i górnej.</p>
                 <p><span class="bold">Ilu bitowe są nasze oczy?</span> Oczy przetwarzają informacje z niesamowitą prędkością, przekraczającą 40 000 bitów na godzinę. Rozróżniają przy tym średnio około 200 niezależnych barw. W trakcie średniej długości życia oczy dostarczają około 24 miliardów (24 000 000 000) osobnych obrazów.</p>
                 <p><span class="bold">Jak często mrugamy?</span> Mrugnięcie trwa około 3/10 sekundy. Zdrowy człowiek mruga 1-2 razy na 10 sekund. Wynika z&nbsp;tego, że&nbsp;w&nbsp;ciągu dnia mamy zamknięte oczy przez 36 minut. Daje to aż 9 dni w ciągu roku!</p>
@@ -109,42 +126,9 @@
         </div>
     </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
     <script src="assets/scripts/snake.js"></script>
     <script src="assets/scripts/onselect.js"></script>
     <script src="assets/scripts/scroll.js"></script>
+    <script src="assets/scripts/openmenu.js"></script>
 </body>
 </html>
