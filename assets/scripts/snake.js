@@ -30,7 +30,7 @@ function handleIndicator2(el) {
   });
   indicator2.style.width = "".concat(el.offsetWidth, "px");
   indicator2.style.left = "".concat(el.offsetLeft, "px");
-  indicator2.style.opacity = "0.2" ;
+  indicator2.style.opacity = "0.3" ;
 };
 
 items.forEach(function (item, index) {
