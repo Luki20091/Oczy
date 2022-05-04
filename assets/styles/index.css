@@ -17,7 +17,7 @@ header {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    backdrop-filter: brightness(70%) blur(5px);
+    backdrop-filter: brightness(70%) blur(2px);
 }
 
 
@@ -194,10 +194,11 @@ footer p {
     padding: 0;
     margin: 10px 10px;
     font-size: 12px;
-    opacity: 0.3;
     font-weight: 500;
     cursor: context-menu;
+    opacity: 0.3;
 }
+
 
 
 
@@ -221,7 +222,6 @@ footer p {
 
 
 .results-info {
-    width: 180px;
     display: none;
 }
 
