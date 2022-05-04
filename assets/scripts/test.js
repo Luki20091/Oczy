@@ -1,10 +1,27 @@
-var next = $("button[id='next']");
-var submit = $("button[id='submit']");
 var count = document.getElementById("c-item");
 var answer = document.getElementById("answer");
 var result = 0;
 
-next.click(function () {
+
+
+
+document.getElementById("next").addEventListener("click", test);
+
+
+
+$(document).ready(function () {
+
+    $('#answer').keydown(function (event) {
+        if (event.keyCode == 13) {
+            test();
+            return false;
+        }
+        return true;
+    });
+    return true;
+});
+
+function test() {
     if (count.innerHTML == 1 && answer.value != "") {
         document.getElementById("img1").classList.remove("visible");
         document.getElementById("img2").classList.add("visible");
@@ -97,8 +114,7 @@ next.click(function () {
     if (count.innerHTML == 8 && answer.value != "") {
         document.getElementById("img8").classList.remove("visible");
         document.getElementById("img9").classList.add("visible");
-        document.getElementById("next").classList.remove("visible");
-        document.getElementById("submit").classList.add("visible");
+        document.getElementById("next").innerHTML = "Sprawdź";
         if (document.getElementById("answer").value == "h") {
             result = result + 1;
         };
@@ -109,32 +125,7 @@ next.click(function () {
         document.getElementById("answer").focus();
         count.innerHTML = 9;
         return false;
-    }
-    else {
-        document.getElementById("answer").focus();
-    }
-});
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-submit.click(function () {
+    };
     if (count.innerHTML == 9 && answer.value != "") {
         if (document.getElementById("answer").value == "f") {
             result = result + 1;
@@ -156,13 +147,16 @@ submit.click(function () {
         };
         document.getElementById("answer").value = "";
         document.getElementById("img9").classList.remove("visible");
-        document.getElementById("submit").classList.remove("visible");
+        document.getElementById("next").classList.remove("visible");
         document.getElementById("answer").style.display = "none";
         document.getElementById("test-question").style.display = "none";
         document.getElementById("h1-test").style.display = "none";
         document.getElementById("h1-result").style.display = "block";
         document.getElementById("r-item").innerHTML = result;
         return false;
+    }
+    else {
+        document.getElementById("answer").focus();
     };
-});
+};
 
