@@ -28,6 +28,7 @@
             <a id="ochrona" class="nav-item">Ochrona</a>
             <a id="fakty" class="nav-item">Fakty</a>
             <a id="ciekawostki" class="nav-item">Ciekawostki</a>
+            <a id="test" class="nav-item">Test</a>
         </nav>
         <div id="header-cz3">
             <input id="toggle" type="checkbox" onClick="openMenu();">
@@ -45,6 +46,7 @@
             <a id="ochrona">Ochrona</a>
             <a id="fakty">Fakty</a>
             <a id="ciekawostki">Ciekawostki</a>
+            <a id="test">Test</a>
         </div>
     </div>
 
@@ -116,6 +118,36 @@
                 <p><span class="bold">Jak często mrugamy?</span> Mrugnięcie trwa około 3/10 sekundy. Zdrowy człowiek mruga 1-2 razy na 10 sekund. Wynika z&nbsp;tego, że&nbsp;w&nbsp;ciągu dnia mamy zamknięte oczy przez 36 minut. Daje to aż 9 dni w ciągu roku!</p>
             </div>
         </div>
+
+
+        <div id="to-test" class="full-height">
+            <div class="content-row">
+                <h1 id="h1-test">Test&nbsp;oczu: <span id="c-item">1</span>/9</h1>
+                <h1 id="h1-result">Wynik&nbsp;testu: <span id="r-item"></span>/9</h1>
+                <div class="row">
+                    <div class="test-images">
+                        <img id="img1" class="visible" alt="test" src="assets/images/test1.svg">
+                        <img id="img2" alt="test" src="assets/images/testJ.svg">
+                        <img id="img3" alt="test" src="assets/images/testV.svg">
+                        <img id="img4" alt="test" src="assets/images/testQ.svg">
+                        <img id="img5" alt="test" src="assets/images/testC.svg">
+                        <img id="img6" alt="test" src="assets/images/test9.svg">
+                        <img id="img7" alt="test" src="assets/images/test5.svg">
+                        <img id="img8" alt="test" src="assets/images/testH.svg">
+                        <img id="img9" alt="test" src="assets/images/testF.svg">
+                    </div>
+                    <div class="test-container">
+                        <p id="test-question">Jaką cyfrę/literę widzisz?</p>
+                        <input name="answer" id="answer" value="" maxlength="1" type="text" autocomplete="off" spellcheck="false">
+                        <button id="next" class="visible">Dalej</button>
+                        <button id="submit">Sprawdz</button>
+                        <p id="no" class="results-info">Musisz trochę poćwiczyć i&nbsp;zacząć bardziej dbać o oczy!</p>
+                        <p id="ok" class="results-info">Jest naprawdę dobrze, możesz trochę poćwiczyć!</p>
+                        <p id="yas" class="results-info">Super, takich oczu naprawdę dawno nie widziałem!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </content>
     <footer>
         <div id="copyright">
@@ -126,6 +158,7 @@
         </div>
     </footer>
 
+    <script src="assets/scripts/test.js"></script>
     <script src="assets/scripts/snake.js"></script>
     <script src="assets/scripts/onselect.js"></script>
     <script src="assets/scripts/scroll.js"></script>

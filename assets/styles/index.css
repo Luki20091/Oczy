@@ -198,3 +198,51 @@ footer p {
     font-weight: 500;
     cursor: context-menu;
 }
+
+
+
+
+
+.test-images {
+    width: 60%;
+}
+
+
+.test-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.test-container > p {
+    margin-bottom: 10px;
+
+}
+
+
+.results-info {
+    width: 180px;
+    display: none;
+}
+
+
+.test-images img {
+    width: 100%;
+}
+
+
+
+.test-images img, .test-container button, #h1-result {
+    display: none;
+}
+
+
+
+
+
+.test-images > .visible, .test-container .visible {
+    display: block;
+}
+
+
+

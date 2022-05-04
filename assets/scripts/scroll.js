@@ -38,6 +38,15 @@ $("a[id='ciekawostki']").click(function () {
     return false;
 });
 
+$("a[id='test']").click(function () {
+    $("html, body, content").animate({ scrollTop: $("#to-test").offset().top }, "slow");
+    document.title = ('Oczy | Test');
+    document.getElementById("answer").focus();
+    document.getElementById("menu-items").classList.remove("menu-items-visible");
+    document.getElementById("toggle").checked = false;
+    return false;
+});
+
 $("a[id='glowna']").click(function () {
     window.location.reload();
 }); 
