@@ -17,8 +17,7 @@ header {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
-    backdrop-filter: blur(5px);
-    backdrop-filter: brightness(70%);
+    backdrop-filter: brightness(70%) blur(5px);
 }
 
 
