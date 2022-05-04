@@ -151,6 +151,7 @@ function test() {
         document.getElementById("answer").style.display = "none";
         document.getElementById("test-question").style.display = "none";
         document.getElementById("h1-test").style.display = "none";
+        document.getElementById("h1-test2").style.display = "none";
         document.getElementById("h1-result").style.display = "block";
         document.getElementById("r-item").innerHTML = result;
         return false;

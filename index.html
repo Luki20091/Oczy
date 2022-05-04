@@ -62,10 +62,11 @@
 
         <div id="to-budowa" class="full-height">
             <div class="content-row">
-                <h1>Budowa&nbsp;oka ludzkiego:</h1>
+                <h1 class="h1-change-media">Budowa&nbsp;oka:</h1>
                 <div class="row">
                     <img alt="budowa oka" src="assets/images/budowa-oka.png">
                     <div>
+                        <h1 class="h1-change-desktop">Budowa&nbsp;oka:</h1>
                         <p>Oko jest jednym z najważniejszych narządów zmysłów. Dostarcza około 82% informacji o otoczeniu. Do procesu analizy odebranych przez oczy sygnałów angażowane jest ponad 10% wszystkich komórek nerwowych w mózgu. Dzięki temu, każdy człowiek rozumie to, co widzi.</p>
                         <p>"Gałka oczna ma kształt zbliżony do kuli o średnicy około 24 milimetrów i umiejscowiona jest w przedniej części oczodołu" - lekarz okulista.</p>
                     </div>
@@ -122,7 +123,7 @@
 
         <div id="to-test" class="full-height">
             <div class="content-row">
-                <h1 id="h1-test">Test&nbsp;oczu: <span id="c-item">1</span>/9</h1>
+                <h1 id="h1-test" class="h1-change-media">Test&nbsp;oczu: <span id="c-item">1</span>/9</h1>
                 <h1 id="h1-result">Wynik&nbsp;testu: <span id="r-item"></span>/9</h1>
                 <div class="row">
                     <div class="test-images">
@@ -136,11 +137,14 @@
                         <img id="img8" alt="test" src="assets/images/testH.svg">
                         <img id="img9" alt="test" src="assets/images/testF.svg">
                     </div>
+                    <div class="test-container">
+                        <h1 id="h1-test2" class="h1-change-desktop">Test&nbsp;oczu: <span id="c-item">1</span>/9</h1>
+                        <p id="test-question">Jaką cyfrę/literę widzisz?</p>
+                        <input name="answer" id="answer" value="" maxlength="1" type="text" autocomplete="off" spellcheck="false">
+                        <button id="next" class="visible">Dalej</button>
+                    </div>
                 </div>
-                <div class="test-container">
-                    <p id="test-question">Jaką cyfrę/literę widzisz?</p>
-                    <input name="answer" id="answer" value="" maxlength="1" type="text" autocomplete="off" spellcheck="false">
-                    <button id="next" class="visible">Dalej</button>
+                <div>
                     <p id="no" class="results-info">Musisz trochę poćwiczyć i&nbsp;zacząć bardziej dbać o oczy!</p>
                     <p id="ok" class="results-info">Jest naprawdę dobrze, możesz trochę poćwiczyć!</p>
                     <p id="yas" class="results-info">Super, takich oczu naprawdę dawno nie widziałem!</p>

@@ -246,3 +246,9 @@ footer p {
 
 
 
+.h1-change-media {
+    display: none;
+}
+.h1-change-desktop {
+    display: block;
+}
