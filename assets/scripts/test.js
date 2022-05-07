@@ -1,4 +1,5 @@
 var count = document.getElementById("c-item");
+var count2 = document.getElementById("c2-item");
 var answer = document.getElementById("answer");
 var result = 0;
 
@@ -31,6 +32,7 @@ function test() {
         document.getElementById("answer").value = "";
         document.getElementById("answer").focus();
         count.innerHTML = 2;
+        count2.innerHTML = 2;
         return false;
     };
     if (count.innerHTML == 2 && answer.value != "") {
@@ -45,6 +47,7 @@ function test() {
         document.getElementById("answer").value = "";
         document.getElementById("answer").focus();
         count.innerHTML = 3;
+        count2.innerHTML = 3;
         return false;
     };
     if (count.innerHTML == 3 && answer.value != "") {
@@ -59,6 +62,7 @@ function test() {
         document.getElementById("answer").value = "";
         document.getElementById("answer").focus();
         count.innerHTML = 4;
+        count2.innerHTML = 4;
         return false;
     };
     if (count.innerHTML == 4 && answer.value != "") {
@@ -73,6 +77,7 @@ function test() {
         document.getElementById("answer").value = "";
         document.getElementById("answer").focus();
         count.innerHTML = 5;
+        count2.innerHTML = 5;
         return false;
     };
     if (count.innerHTML == 5 && answer.value != "") {
@@ -87,6 +92,7 @@ function test() {
         document.getElementById("answer").value = "";
         document.getElementById("answer").focus();
         count.innerHTML = 6;
+        count2.innerHTML = 6;
         return false;
     };
     if (count.innerHTML == 6 && answer.value != "") {
@@ -98,6 +104,7 @@ function test() {
         document.getElementById("answer").value = "";
         document.getElementById("answer").focus();
         count.innerHTML = 7;
+        count2.innerHTML = 7;
         return false;
     };
     if (count.innerHTML == 7 && answer.value != "") {
@@ -109,6 +116,7 @@ function test() {
         document.getElementById("answer").value = "";
         document.getElementById("answer").focus();
         count.innerHTML = 8;
+        count2.innerHTML = 8;
         return false;
     };
     if (count.innerHTML == 8 && answer.value != "") {
@@ -124,6 +132,7 @@ function test() {
         document.getElementById("answer").value = "";
         document.getElementById("answer").focus();
         count.innerHTML = 9;
+        count2.innerHTML = 9;
         return false;
     };
     if (count.innerHTML == 9 && answer.value != "") {
