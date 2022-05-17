@@ -163,6 +163,7 @@ function test() {
         document.getElementById("h1-test2").style.display = "none";
         document.getElementById("h1-result").style.display = "block";
         document.getElementById("r-item").innerHTML = result;
+        $("html, body, content").animate({ scrollTop: $("#to-test").offset().top }, "slow");
         return false;
     }
     else {
